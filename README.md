@@ -118,7 +118,7 @@ ovs-docker：新版本已经自带ovs-docker了，不用再去github上下载了
 
    此时可以看到拓扑：
 
-   ![mytopo_2sw_2host](/home/zhb/Desktop/mytopo_2sw_2host.png)
+   ![mytopo_2sw_2host](picture/mytopo_2sw_2host.png)
 
 4. 测试连通性：在mininet中：`h1 ping h2`![h1_ping_h2](/home/zhb/Desktop/h1_ping_h2.png)
 
