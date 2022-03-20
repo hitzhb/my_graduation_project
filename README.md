@@ -120,15 +120,15 @@ ovs-docker：新版本已经自带ovs-docker了，不用再去github上下载了
 
    ![mytopo_2sw_2host](picture/mytopo_2sw_2host.png)
 
-4. 测试连通性：在mininet中：`h1 ping h2`![h1_ping_h2](/home/zhb/Desktop/h1_ping_h2.png)
+4. 测试连通性：在mininet中：`h1 ping h2`![h1_ping_h2](picture/h1_ping_h2.png)
 
    ping 之前ovs的流表：
 
-   ![before_ping_ovs](/home/zhb/Desktop/before_ping_ovs.png)
+   ![before_ping_ovs](picture/before_ping_ovs.png)
 
    ping之后ovs的流表：
 
-   ![after_ping_ovs](/home/zhb/Desktop/after_ping_ovs.png)
+   ![after_ping_ovs](picture/after_ping_ovs.png)
 
    可以发现，ping之后ryu有流表下发，可以看出数据的流向。
 
