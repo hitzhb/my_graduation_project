@@ -135,3 +135,4 @@ ovs-docker：新版本已经自带ovs-docker了，不用再去github上下载了
 
    采用host模式发现无法ping通，查看ip地址发现，docker与宿主机的ip地址一致：172.20.65.114，而不是与mininet创建的主机h1：10.0.0.1一致。
 
+test
